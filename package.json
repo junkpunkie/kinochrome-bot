@@ -3,7 +3,8 @@
   "name": "opensea",
   "version": "0.0.1",
   "scripts": {
-    "heroku-postdeploy": "yarn ts-node checkSales.ts"
+    "heroku-postdeploy": "yarn ts-node checkSales.ts",
+    "start": "npm run heroku-postdeploy"
   },
   "dependencies": {
     "@types/node": "^14.14.36",
