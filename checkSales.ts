@@ -4,7 +4,6 @@ import fetch from 'node-fetch';
 import { ethers } from "ethers";
 import nodeHtmlToImage from 'node-html-to-image';
 import fs from "pn/fs"
-import atob from 'atob'
 
 const OPENSEA_SHARED_STOREFRONT_ADDRESS = '0x495f947276749Ce646f68AC8c248420045cb7b5e';
 
