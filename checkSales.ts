@@ -5,6 +5,10 @@ import { ethers } from "ethers";
 import nodeHtmlToImage from 'node-html-to-image';
 import fs from "pn/fs"
 
+const atob = (base64) => {
+  return Buffer.from(base64, 'base64').toString('binary');
+};
+
 const OPENSEA_SHARED_STOREFRONT_ADDRESS = '0x495f947276749Ce646f68AC8c248420045cb7b5e';
 
 const discordBot = new Discord.Client();
